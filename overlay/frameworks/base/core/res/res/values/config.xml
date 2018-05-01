@@ -471,4 +471,7 @@
          For example, a device with Home, Back and Menu keys would set this
          config to 19. -->
     <integer name="config_deviceHardwareKeys">64</integer>
+
+    <!-- Whether device has screen with higher aspect ratio -->
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
 </resources>
