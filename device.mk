@@ -333,6 +333,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbt-vendor
 
+# Camera
+PRODUCT_PACKAGES += \
+    SnapdragonCamera 
+
 $(call inherit-product, device/xiaomi/whyred/treble.mk)
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
